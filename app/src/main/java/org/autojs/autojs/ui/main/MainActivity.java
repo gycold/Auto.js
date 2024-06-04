@@ -83,7 +83,7 @@ public class MainActivity extends BaseActivity implements OnActivityResultDelega
     private FragmentPagerAdapterBuilder.StoredFragmentPagerAdapter mPagerAdapter;
     private OnActivityResultDelegate.Mediator mActivityResultMediator = new OnActivityResultDelegate.Mediator();
     private RequestPermissionCallbacks mRequestPermissionCallbacks = new RequestPermissionCallbacks();
-    private VersionGuard mVersionGuard;
+//    private VersionGuard mVersionGuard;
     private BackPressedHandler.Observer mBackPressObserver = new BackPressedHandler.Observer();
     private SearchViewItem mSearchViewItem;
     private MenuItem mLogMenuItem;
@@ -95,7 +95,7 @@ public class MainActivity extends BaseActivity implements OnActivityResultDelega
         super.onCreate(savedInstanceState);
         checkPermissions();
         showAccessibilitySettingPromptIfDisabled();
-        mVersionGuard = new VersionGuard(this);
+//        mVersionGuard = new VersionGuard(this);
         showAnnunciationIfNeeded();
         EventBus.getDefault().register(this);
         applyDayNightMode();
@@ -227,7 +227,7 @@ public class MainActivity extends BaseActivity implements OnActivityResultDelega
     @Override
     protected void onResume() {
         super.onResume();
-        mVersionGuard.checkForDeprecatesAndUpdates();
+//        mVersionGuard.checkForDeprecatesAndUpdates();
     }
 
     @Override

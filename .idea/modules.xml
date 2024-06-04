@@ -2,19 +2,31 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Auto.js.iml" filepath="$PROJECT_DIR$/Auto.js.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Auto.js-master.iml" filepath="$PROJECT_DIR$/.idea/modules/Auto.js-master.iml" group="Auto.js-master" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Auto.js-master-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Auto.js-master-app.iml" group="Auto.js-master/app" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/autojs/Auto.js-master-autojs.iml" filepath="$PROJECT_DIR$/.idea/modules/autojs/Auto.js-master-autojs.iml" group="Auto.js-master/autojs" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/automator/Auto.js-master-automator.iml" filepath="$PROJECT_DIR$/.idea/modules/automator/Auto.js-master-automator.iml" group="Auto.js-master/automator" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/Auto.js-master-common.iml" filepath="$PROJECT_DIR$/.idea/modules/common/Auto.js-master-common.iml" group="Auto.js-master/common" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/inrt/Auto.js-master-inrt.iml" filepath="$PROJECT_DIR$/.idea/modules/inrt/Auto.js-master-inrt.iml" group="Auto.js-master/inrt" />
-      <module fileurl="file://$PROJECT_DIR$/NoRootScriptDroid.iml" filepath="$PROJECT_DIR$/NoRootScriptDroid.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/autojs/autojs.iml" filepath="$PROJECT_DIR$/autojs/autojs.iml" />
-      <module fileurl="file://$PROJECT_DIR$/automator/automator.iml" filepath="$PROJECT_DIR$/automator/automator.iml" />
-      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
-      <module fileurl="file://$PROJECT_DIR$/inrt/inrt.iml" filepath="$PROJECT_DIR$/inrt/inrt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Auto.js.iml" filepath="$PROJECT_DIR$/.idea/Auto.js.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/apkbuilder/Auto.js.apkbuilder.iml" filepath="$PROJECT_DIR$/.idea/modules/apkbuilder/Auto.js.apkbuilder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/apkbuilder/Auto.js.apkbuilder.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/apkbuilder/Auto.js.apkbuilder.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/apkbuilder/Auto.js.apkbuilder.main.iml" filepath="$PROJECT_DIR$/.idea/modules/apkbuilder/Auto.js.apkbuilder.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/apkbuilder/Auto.js.apkbuilder.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/apkbuilder/Auto.js.apkbuilder.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Auto.js.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Auto.js.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Auto.js.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Auto.js.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Auto.js.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Auto.js.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Auto.js.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Auto.js.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/autojs/Auto.js.autojs.iml" filepath="$PROJECT_DIR$/.idea/modules/autojs/Auto.js.autojs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/autojs/Auto.js.autojs.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/autojs/Auto.js.autojs.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/autojs/Auto.js.autojs.main.iml" filepath="$PROJECT_DIR$/.idea/modules/autojs/Auto.js.autojs.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/autojs/Auto.js.autojs.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/autojs/Auto.js.autojs.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/automator/Auto.js.automator.iml" filepath="$PROJECT_DIR$/.idea/modules/automator/Auto.js.automator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/automator/Auto.js.automator.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/automator/Auto.js.automator.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/automator/Auto.js.automator.main.iml" filepath="$PROJECT_DIR$/.idea/modules/automator/Auto.js.automator.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/automator/Auto.js.automator.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/automator/Auto.js.automator.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/Auto.js.common.iml" filepath="$PROJECT_DIR$/.idea/modules/common/Auto.js.common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/Auto.js.common.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/common/Auto.js.common.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/Auto.js.common.main.iml" filepath="$PROJECT_DIR$/.idea/modules/common/Auto.js.common.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/Auto.js.common.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/common/Auto.js.common.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/inrt/Auto.js.inrt.iml" filepath="$PROJECT_DIR$/.idea/modules/inrt/Auto.js.inrt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/inrt/Auto.js.inrt.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/inrt/Auto.js.inrt.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/inrt/Auto.js.inrt.main.iml" filepath="$PROJECT_DIR$/.idea/modules/inrt/Auto.js.inrt.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/inrt/Auto.js.inrt.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/inrt/Auto.js.inrt.unitTest.iml" />
     </modules>
   </component>
 </project>

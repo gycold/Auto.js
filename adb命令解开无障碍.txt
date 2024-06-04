@@ -1,0 +1,21 @@
+1.添加权限：
+<uses-permission android:name="android.permission.WRITE_SETTINGS"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS"
+        tools:ignore="ProtectedPermissions" />
+
+2.在activity中添加：
+Java版本：
+Settings.Secure.putString(getContentResolver(), Settings.Secure.ENABLED_ACCESSIBILITY_SERVICES, getPackageName() + "/com.stardust.autojs.core.accessibility.AccessibilityService");
+Settings.Secure.putString(getContentResolver(), Settings.Secure.ACCESSIBILITY_ENABLED, "1");//1表示开启
+
+Kotlin版本：
+Settings.Secure.putString(
+            contentResolver,
+            Settings.Secure.ENABLED_ACCESSIBILITY_SERVICES,
+            packageName + "/com.stardust.autojs.core.accessibility.AccessibilityService"
+        )
+Settings.Secure.putString(contentResolver, Settings.Secure.ACCESSIBILITY_ENABLED, "1")//1表示开启
+
+3.安装apk，使用adb命令：
+adb shell pm grant app包名 android.permission.WRITE_SECURE_SETTINGS

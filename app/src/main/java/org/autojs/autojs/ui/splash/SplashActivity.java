@@ -1,12 +1,15 @@
 package org.autojs.autojs.ui.splash;
 
+import android.content.ContentResolver;
 import android.os.Bundle;
 import android.os.Handler;
-import androidx.annotation.Nullable;
+import android.provider.Settings;
 
 import org.autojs.autojs.R;
 import org.autojs.autojs.ui.BaseActivity;
 import org.autojs.autojs.ui.main.MainActivity_;
+
+import androidx.annotation.Nullable;
 
 /**
  * Created by Stardust on 2017/7/7.
@@ -25,6 +28,9 @@ public class SplashActivity extends BaseActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         init();
+
+        Settings.Secure.putString(getContentResolver(), Settings.Secure.ENABLED_ACCESSIBILITY_SERVICES, getPackageName() + "/com.stardust.autojs.core.accessibility.AccessibilityService");
+        Settings.Secure.putString(getContentResolver(), Settings.Secure.ACCESSIBILITY_ENABLED, "1");//1表示开启
         mHandler.postDelayed(SplashActivity.this::enterNextActivity, INIT_TIMEOUT);
     }
 
